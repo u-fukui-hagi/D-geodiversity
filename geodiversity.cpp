@@ -31,8 +31,6 @@ typedef struct{
 
 
 int Dijkstra(int current, vector<vector<int>> &short_node, int *route, int network[][NODER][2]){
-	/*sRoute 出発地から目的地までの最短経路上の地点の地点番号を目的地から出発地の順に設定する2次元配列 */
-	/* その他使う変数 */
 	int pDist[NODER];/* Array to set the shortest distance from the starting point to each location */
 	int pRoute[NODER];
 	bool pFixed[NODER];/* Array to identify if the shortest distance from the starting point to each point has been determined */
